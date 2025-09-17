@@ -57,5 +57,6 @@ catkin_ws/install/
 *.tmp
 *.bak
 
-# Ignore zip files in 3D_mounting_designs
-3D_mounting_designs/*.zip
+# Environment files
+.env
+.env.*
