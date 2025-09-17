@@ -56,3 +56,15 @@ Thanks to [Jiaxu](https://wujiaxu.github.io/), you can download the dataset usin
 
 ### Parsing bag files
 To parse bag files and create samples please follow [this](scripts/README.md) guide. To load the data, [here](scripts/dataloader.py) is a PyTorch dataloader example which loads ego-centeric images.
+
+
+
+### Viewing .gv (Graphviz) files
+To view `.gv` files (Graphviz DOT format), you can convert them to PNG and open them with Preview on macOS:
+
+```sh
+dot -Tpng yourfile.gv -o yourfile.png
+open yourfile.png
+```
+This will generate a PNG image from the `.gv` file and open it in the Preview app.
+
