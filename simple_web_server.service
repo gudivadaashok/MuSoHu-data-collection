@@ -1,0 +1,12 @@
+[Unit]
+Description=Simple Python Web Server for MuSoHu
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/Users/sruthisaripudi/Git/GMU/MuSoHu-data-collection
+ExecStart=/usr/bin/python3 simple_web_server.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

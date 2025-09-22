@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb and Button Simulator</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        .bulb {
+            width: 100px;
+            height: 150px;
+            background: #eee;
+            border-radius: 50% 50% 45% 45% / 60% 60% 40% 40%;
+            margin: 0 auto 20px auto;
+            box-shadow: 0 0 30px 10px #ffeb3b44;
+            transition: background 0.3s, box-shadow 0.3s;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+        .bulb.on {
+            background: #fff700;
+            box-shadow: 0 0 60px 30px #fff70099;
+        }
+        .base {
+            width: 40px;
+            height: 30px;
+            background: #888;
+            border-radius: 0 0 10px 10px;
+            margin: 0 auto;
+        }
+        button {
+            padding: 10px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="bulb" class="bulb"></div>
+    <div class="base"></div>
+    <button id="toggleBtn">Turn On</button>
+
+    <script>
+        const bulb = document.getElementById('bulb');
+        const btn = document.getElementById('toggleBtn');
+        let isOn = false;
+        btn.onclick = function() {
+            isOn = !isOn;
+            bulb.className = isOn ? 'bulb on' : 'bulb';
+            btn.textContent = isOn ? 'Turn Off' : 'Turn On';
+        };
+    </script>
+</body>
+</html>
