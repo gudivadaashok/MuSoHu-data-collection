@@ -64,4 +64,24 @@ Install the SDK from [here](https://www.stereolabs.com/developers/release/)
 https://download.stereolabs.com/zedsdk/5.0/cu11_trt8/ubuntu20
 
 
+### Fixing Browser Issue on Jetson Orin Nano
+
+If you encounter a browser issue on the Jetson Orin Nano, you can resolve it by installing a specific version of `snapd`:
+
+1. Download the required revision of `snapd`:
+   ```bash
+   snap download snapd --revision=24724
+   ```
+
+2. Acknowledge the downloaded snap package:
+   ```bash
+   sudo snap ack snapd_24724.assert
+   ```
+
+3. Install the snap package:
+   ```bash
+   sudo snap install snapd_24724.snap
+   ```
+
+
 
