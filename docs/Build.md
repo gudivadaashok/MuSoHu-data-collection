@@ -85,3 +85,16 @@ If you encounter a browser issue on the Jetson Orin Nano, you can resolve it by 
 
 
 
+
+### Add ROS 2 to PATH
+
+To ensure the `ros2` command is available, add the ROS 2 setup script to your PATH:
+
+```bash
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc && source ~/.bashrc
+```
+
+This command appends the sourcing of the ROS setup script to your `~/.bashrc` file and reloads it immediately.
+
+
+

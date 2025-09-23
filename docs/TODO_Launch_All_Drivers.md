@@ -96,3 +96,16 @@ Set up a unified ROS2 launch file to start all sensor drivers (ZED2, LiDAR, IMU,
 
 ## Hardware Platform
 Jetson Orion Nano 8GB Dev Kit
+
+## Operating System
+Ubuntu 22.04
+
+## ROS2 Version
+ROS2 Humble Hawksbill
+
+## Videos that show how to install the drivers and launch files for each sensor
+
+   - [ZED2 Installation and Launch](https://www.youtube.com/watch?v=k1-naauRSz0)
+   - [LiDAR Installation and Launch](https://www.example.com/lidar-install)
+   - [Microphone Array Installation and Launch](https://www.example.com/microphone-install)
+   - [IMU Installation and Launch](https://www.example.com/imu-install)
