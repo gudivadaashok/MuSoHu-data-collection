@@ -109,3 +109,27 @@ ROS2 Humble Hawksbill
    - [LiDAR Installation and Launch](https://www.example.com/lidar-install)
    - [Microphone Array Installation and Launch](https://www.example.com/microphone-install)
    - [IMU Installation and Launch](https://www.example.com/imu-install)
+
+
+
+Topic List to be recorded in the bag file:
+
+```
+topics:      /action                                             7858 msgs    : nav_msgs/Odometry                      
+             /rosout                                              977 msgs    : rosgraph_msgs/Log                       (4 connections)
+             /rosout_agg                                          961 msgs    : rosgraph_msgs/Log                      
+             /scan                                               2972 msgs    : sensor_msgs/LaserScan                  
+             /tf                                                29906 msgs    : tf2_msgs/TFMessage                     
+             /tf_static                                             2 msgs    : tf2_msgs/TFMessage                      (2 connections)
+             /velodyne_points                                    2972 msgs    : sensor_msgs/PointCloud2                
+             /zed2/zed_node/depth/camera_info                    6313 msgs    : sensor_msgs/CameraInfo                 
+             /zed2/zed_node/depth/depth_registered/compressed    6313 msgs    : sensor_msgs/CompressedImage            
+             /zed2/zed_node/imu/data                            13996 msgs    : sensor_msgs/Imu                        
+             /zed2/zed_node/odom                                 8612 msgs    : nav_msgs/Odometry                      
+             /zed2/zed_node/path_map                              600 msgs    : nav_msgs/Path                          
+             /zed2/zed_node/path_odom                             600 msgs    : nav_msgs/Path                          
+             /zed2/zed_node/pose                                 8610 msgs    : geometry_msgs/PoseStamped              
+             /zed2/zed_node/pose_with_covariance                 8608 msgs    : geometry_msgs/PoseWithCovarianceStamped
+             /zed2/zed_node/rgb/camera_info                     12135 msgs    : sensor_msgs/CameraInfo                 
+             /zed2/zed_node/rgb/image_rect_color/compressed      6312 msgs    : sensor_msgs/CompressedImage
+```
