@@ -103,12 +103,7 @@ Ubuntu 22.04
 ## ROS2 Version
 ROS2 Humble Hawksbill
 
-## Videos that show how to install the drivers and launch files for each sensor
 
-   - [ZED2 Installation and Launch](https://www.youtube.com/watch?v=k1-naauRSz0)
-   - [LiDAR Installation and Launch](https://www.example.com/lidar-install)
-   - [Microphone Array Installation and Launch](https://www.example.com/microphone-install)
-   - [IMU Installation and Launch](https://www.example.com/imu-install)
 
 
 
@@ -133,3 +128,21 @@ topics:      /action                                             7858 msgs    : 
              /zed2/zed_node/rgb/camera_info                     12135 msgs    : sensor_msgs/CameraInfo                 
              /zed2/zed_node/rgb/image_rect_color/compressed      6312 msgs    : sensor_msgs/CompressedImage
 ```
+
+
+
+## Videos that show how to install the drivers and launch files for each sensor
+
+   - [ZED2 Installation and Launch](https://www.youtube.com/watch?v=k1-naauRSz0)
+   - [LiDAR Installation and Launch](https://www.example.com/lidar-install)
+   - [Microphone Array Installation and Launch](https://www.example.com/microphone-install)
+   - [IMU Installation and Launch](https://www.youtube.com/watch?v=ddnU1vAlg_I&t=2s)
+
+
+
+## GitHub Repositories for each Driver
+- [witmotion_ros2](https://github.com/ioio2995/witmotion_ros2.git)
+https://wit-motion.gitbook.io/witmotion-sdk/wit-standard-protocol/sdk/ros-python-introduction
+- [zed-ros2-wrapper](https://github.com/stereolabs/zed-ros2-wrapper.git)
+- [respeaker_ros2](https://github.com/hcrlab/respeaker_ros.git)
+- [LiDAR Robosense H32F70](https://github.com/RoboSense-LiDAR/rslidar_sdk.git)
