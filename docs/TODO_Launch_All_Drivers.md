@@ -146,3 +146,5 @@ https://wit-motion.gitbook.io/witmotion-sdk/wit-standard-protocol/sdk/ros-python
 - [zed-ros2-wrapper](https://github.com/stereolabs/zed-ros2-wrapper.git)
 - [respeaker_ros2](https://github.com/hcrlab/respeaker_ros.git)
 - [LiDAR Robosense H32F70](https://github.com/RoboSense-LiDAR/rslidar_sdk.git)
+
+/workspace/git/respeaker_ros/respeaker_ros/config
